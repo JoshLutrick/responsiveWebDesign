@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(53, 53, 53);
+    padding: 1rem 1rem 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+#welcome-section {
+    background-color:rgb(13, 170, 243);
+    height: 25rem;
+}
+.bottomfooter {
+    background-color: rgb(53, 53, 53);
+}
+#projects {
+    background-color: rgb(175, 175, 175);
+    height: 20rem;
+}
+.bottomfooter__img {
+    height: 3rem;
+}
