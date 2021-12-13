@@ -2,26 +2,34 @@
     margin: 0;
     padding: 0;
 }
-#navbar {
-    position: sticky;
-    top: 0;
-    background-color: rgb(53, 53, 53);
-    padding: 1rem 1rem 1rem 0;
+body {
+    background-color: rgb(206, 206, 206);
+}
+.navbar {
+    background-color: rgb(49, 49, 49);
+    width: 100vw;
+    height: 8vh;
     display: flex;
-    justify-content: flex-end;
-    font-size: 1.5rem;
+    justify-content: space-between;
 }
-#welcome-section {
-    background-color:rgb(13, 170, 243);
-    height: 25rem;
+.navbar__title {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.3rem;
+    font-family: Anton, sans-serif;
+    color: rgb(14, 131, 226);
 }
-.bottomfooter {
-    background-color: rgb(53, 53, 53);
+.navbar__list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 6vh;
+    list-style: none;
+    padding-top: 0.7rem;
 }
-#projects {
-    background-color: rgb(175, 175, 175);
-    height: 20rem;
-}
-.bottomfooter__img {
-    height: 3rem;
+.list__item {
+ text-decoration: none;
+ color: white;
+ font-weight: 700;
+ font-size: 1rem;
 }
