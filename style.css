@@ -1,35 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-color: rgb(206, 206, 206);
+  margin: 0;
+  padding: 0;
 }
 .navbar {
-    background-color: rgb(49, 49, 49);
-    width: 100vw;
-    height: 8vh;
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(43, 43, 43);
+  padding-left: 3vw;
 }
-.navbar__title {
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    padding: 0.5rem 0.3rem;
-    font-family: Anton, sans-serif;
-    color: rgb(14, 131, 226);
+.navbar__img {
+  height: 8vh;
 }
-.navbar__list {
-    display: flex;
-    justify-content: space-evenly;
-    width: 60vw;
-    height: 6vh;
-    list-style: none;
-    padding-top: 0.7rem;
+.firstsection {
+  background-color: red;
+  height: 13vh;
+  width: 80vw;
+  margin: 2vh auto;
 }
-.list__item {
- text-decoration: none;
- color: white;
- font-weight: 700;
- font-size: 1rem;
+#title {
+  font-family:'Franklin Gothic Medium', sans-serif;
+  font-size: 7vw;
+  text-align: center;
+}
+#description {
+  width: 70vw;
+  margin: 1vh auto;
+  text-align: center;
+  color: black;
+}
+#survey-form {
+  background-color :rgb(43, 43, 43);
 }
