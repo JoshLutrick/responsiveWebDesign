@@ -18,15 +18,16 @@
       <h1 id="title">Sunrise Form Survey</h1>
       <p id="description">Lets Connect And Make Amazing Things!</p>
     </section>
+    <section class="secondsection">
     <form id="survey-form" action="">
       <label for="name-label">First
-        <input type="text" placeholder="Enter Your Name" id="first-name">
+        <input type="text" placeholder="Enter Your Name" id="first-name" class="forminput" required>
       </label>
       <label for="email-label"> Email
-        <input type="email" placeholder="Enter Your Email" id="email">
+        <input type="email" placeholder="Enter Your Email" id="email" class="forminput" required>
       </label>
       <label for="number-label">Number
-        <input type="number" placeholder="Enter Your Number" id="number" min="2" max="20">
+        <input type="number" placeholder="Enter Your Number" id="number" min="2" max="20" required>
       </label>
       <select id="dropdown">
         <option value="">Select Education Level</option>
@@ -40,6 +41,7 @@
         <input type="radio" name="yes-no" id="no"> No
       </label>
     </form>
+    </section>
     </main>
     <script src="app.js"></script>
   </body>
