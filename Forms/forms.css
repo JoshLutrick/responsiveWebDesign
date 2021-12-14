@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(6, 163, 236);
+}
+.firstsection {
+    background: white;
+    width: 80%;
+    margin: 3rem auto;
+    height: 40vh;
+}
+.firstsection__container__title {
+    color:rgb(6, 163, 236);
+    text-align: center;
+    font-size: 10vw;
+    width: 70%;
+    padding: 1vh 0;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+.firstsection__form {
+    height: 30vh;
+}
+.firstcontainer__form {
+    width: 70vw;
+    margin: 1vh auto;
+}
+.firstcontainer__form input {
+    width: 99%;
+    height: 2rem;
+    border-radius: 8px;
+    border: 2px solid rgb(204, 204, 204);
+}
+.firstcontainer__title {
+    font-size: 5vw;
+}
+.secondcontainer__form {
+    width: 70vw;
+    margin: 1vh auto;
+}
+.secondcontainer__title {
+    font-size: 5vw;
+}
+.secondcontainer__form input {
+    width: 99%;
+    height: 2rem;
+    border-radius: 8px;
+    border: 2px solid rgb(204, 204, 204);
+}
+.secondcontainer__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0.4rem auto;
+}
+.secondcontainer__buttons button {
+    width: 70%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(22, 99, 216);
+    font-size: 7vw;
+}
+.secondcontainer__buttons a {
+    text-align: center;
+}
+.secondcontainer__form input:active {
+    border: 2px solid rgb(6, 163, 236);
+}

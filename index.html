@@ -20,15 +20,17 @@
     </section>
     <section class="secondsection">
     <form id="survey-form" action="">
-      <label for="name-label">First
-        <input type="text" placeholder="Enter Your Name" id="first-name" class="forminput" required>
+      <label for="name" id="name-label">Name
+        <input type="text" placeholder="Enter Your Name" id="name" class="forminput" required>
       </label>
-      <label for="email-label"> Email
+      <label for="email" id="email-label"> Email
         <input type="email" placeholder="Enter Your Email" id="email" class="forminput" required>
       </label>
-      <label for="number-label">Number
+      <label for="number" id="number-label">Number
         <input type="number" placeholder="Enter Your Number" id="number" min="2" max="20" required>
       </label>
+      <div class="selection">
+        <h2 class="selection__title">What Is Your Education Level?</h2>
       <select id="dropdown">
         <option value="">Select Education Level</option>
         <option value="HighSchool">HighSchool</option>
@@ -36,10 +38,33 @@
         <option value="BS">Bachelors</option>
         <option value="Masters">Masters</option>
       </select>
-      <label for="">
-        <input type="radio" name="yes-no" id="yes"> Yes
-        <input type="radio" name="yes-no" id="no"> No
+      </div>
+      <div class="radioselect">
+        <h2 class="radioselect__title">Do You Know HTML & CSS?</h2>
+      <label for="yes">
+        <input type="radio" name="yes-no" id="yes" value="yes"> Yes
+        </label>
+        <label for="no">
+        <input type="radio" name="yes-no" id="no" value="no"> No
       </label>
+      </div>
+      <div class="checkboxes">
+        <h2 class="checkboxes__title">What Position Are You</h2>
+        <label for="junior">Junior
+          <input type="checkbox" name="junior" id="junior" value="Junior Developer">
+        </label>
+        <label for="senior">Senior
+          <input type="checkbox" name="junior" id="senior" value="Senior Developer">
+        </label>
+        <label for="Mid"> Mid
+          <input type="checkbox" name="junior" id="junior" value="Mid Developer">
+        </label>
+      </div>
+      <div class="textarea">
+        <h2 class="textarea__title">Give More Information</h2>
+        <textarea placeholder="Suggest Feedback"></textarea>
+      </div>
+        <button type="submit" id="submit">Submit</button>
     </form>
     </section>
     </main>
