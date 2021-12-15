@@ -35,9 +35,9 @@
   height: 12rem;
 }
 .firstsection__title {
- text-align: center;
- font-size: 4vh;
- color: white;
+  text-align: center;
+  font-size: 4vh;
+  color: white;
 }
 .firstsection__desc {
   text-align: center;
@@ -45,7 +45,7 @@
   color: white;
 }
 .firstsection__desc span {
-  color:rgb(7, 197, 255);
+  color: rgb(7, 197, 255);
 }
 #form {
   height: 7rem;
@@ -87,5 +87,31 @@
   text-align: center;
   margin-top: 1rem;
   font-size: 2.5vh;
-  color:rgb(7, 197, 255);
+  color: rgb(7, 197, 255);
+}
+.thirdsection {
+  background-color: rgb(63, 63, 63);
+  padding-bottom: 2rem;
+}
+.thirdsection__title {
+  color: white;
+  text-align: center;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+#video {
+  width: 70%;
+  height: 10rem;
+  display: block;
+  margin: 0 auto;
+}
+.fourthsection {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5rem;
+}
+.firstprice {
+  background-color: white;
 }

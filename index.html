@@ -11,34 +11,61 @@
   </head>
   <body>
     <header id="header">
-      <img id="header-img" src="https://cryptologos.cc/logos/electroneum-etn-logo.png" alt="Website Brand">
+      <img
+        id="header-img"
+        src="https://cryptologos.cc/logos/electroneum-etn-logo.png"
+        alt="Website Brand"
+      />
       <nav id="nav-bar">
         <ul class="navbar__list">
-          <li><a class="nav-link" href="#">Features</a></li>
-          <li><a class="nav-link" href="#">How It Works</a></li>
+          <li><a class="nav-link" href="#email">Features</a></li>
+          <li><a class="nav-link" href="#video">How It Works</a></li>
           <li><a class="nav-link" href="#">Pricing</a></li>
         </ul>
       </nav>
     </header>
     <section class="firstsection">
       <h2 class="firstsection__title">Deluxe Watches</h2>
-      <p class="firstsection__desc">We Sell High <span>Quality</span> Watches</p>
+      <p class="firstsection__desc">
+        We Sell High <span>Quality</span> Watches
+      </p>
       <div>
-        <form id="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
           <label for="email"></label>
-          <input type="email" id="email" placeholder="Enter Your Email" name="email">
-          <button id="submit" type="submit">Submit</button>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter Your Email"
+            name="email"
+          />
+          <input id="submit" type="submit" />
         </form>
       </div>
     </section>
     <section class="secondsection">
       <div class="firstcontainer">
         <h2 class="firstcontainer__title">Premium Materials</h2>
-        <p class="firstcontainer__desc">Our Watches are made with pure diamonds</p>
+        <p class="firstcontainer__desc">
+          Our Watches are made with pure diamonds
+        </p>
       </div>
       <div class="firstcontainer">
         <h2 class="firstcontainer__title">Premium Materials</h2>
-        <p class="firstcontainer__desc">Our Watches are made with pure diamonds</p>
+        <p class="firstcontainer__desc">
+          Our Watches are made with pure diamonds
+        </p>
+      </div>
+    </section>
+    <section class="thirdsection">
+      <h2 class="thirdsection__title">How It Works</h2>
+      <video width="320" height="240" controls id="video"></video>
+    </section>
+    <section class="fourthsection">
+      <div class="firstprice">
+        <h2 class="firstprice__title">$399.99</h2>
+      </div>
+      <div class="firstprice">
+        <h2 class="firstprice__title">$699.99</h2>
       </div>
     </section>
     <script src="app.js"></script>
