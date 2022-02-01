@@ -5,29 +5,43 @@
 body {
   background-color: rgb(49, 49, 49);
 }
-#photo {
-  display: none;
+.card {
+  background-color: rgb(228, 228, 228);
+  width: 16.7%;
+  height: 32rem;
   margin: 0 auto;
-  transition: 0.3s;
 }
-#view-btn {
+.card h2 {
+  padding: .5rem 1rem;
+}
+.insta-photo {
+  width: 20rem;
   display: block;
-  margin: 1rem auto;
-  background-color: rgb(59, 59, 59);
-  color: white;
-  padding: 0.4rem 0;
-  font-size: 1.5rem;
-  width: 10%;
+  margin: 0 auto;
 }
-#close-btn {
-  display: block;
-  margin: 1rem auto;
-  background-color: rgb(59, 59, 59);
-  color: white;
-  padding: 0.4rem 0;
-  font-size: 1.5rem;
-  width: 10%;
+.fa-heart {
+  font-size: 2.5rem;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+  margin-left: .3rem;
+  margin-top: .3rem;
 }
-#photo:hover {
-  transform: scale(1.04);
+.heartchange {
+  animation-name: pop;
+  animation-duration: .7s;
+  color: red;
+}
+@keyframes pop {
+  50% {
+    font-size: 5rem;
+    transform: rotate(30deg);
+  }
+  80% {
+    font-size: 5rem;
+    transform: rotate(-30deg);
+  }
+  100% {
+    font-size: 4rem;
+    transform: rotate(0deg);
+  }
 }

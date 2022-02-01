@@ -1,16 +1,26 @@
-let view = document.getElementById('view-btn');
-let noView = document.getElementById('close-btn');
-let image = document.getElementById('photo');
+let heart = document.getElementById('toggleHeart');
 
-const show = () => {
-    image.style.display = 'block';
-    view.innerHTML = 'Your Garbage!';
+function changeHeart(){
+    if (!heart.classList.contains('heartchange')){
+        heart.classList.add('heartchange');
+    } else if (heart.classList.contains('heartchange')){
+        heart.classList.remove('heartchange');
+    }
+}
+
+heart.addEventListener('click', changeHeart);
+
+
+const myself = {
+    name: 'Bobby'
+}
+
+function changeObj(obj){
+    obj.name = 'Josh';
+    obj.age = 18;
 };
 
-const dontShow = () => {
-    image.style.display = 'none';
-    view.innerHTML = 'Show Picture';
-};
+changeObj(myself);
+changeObj(myself);
 
-view.addEventListener('click', show);
-noView.addEventListener('click', dontShow);
+console.log(myself);
